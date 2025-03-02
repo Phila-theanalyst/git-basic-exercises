@@ -112,3 +112,35 @@
   112  git checkout -b history
   113  git push -u origin history
   114  history > history.txt
+<<<<<<< HEAD
+=======
+  115  git log
+  116  git checkout milkshake-flavours
+  117  nano README.md
+  118  git commit - "random readme changes"
+  119  git commit -m "random readme changes"
+  120  git add .
+  121  git commit -m "random readme changes"
+  122  cat README.md
+  123  git push
+  124  git checkout history
+  125  rm README.md
+  126  echo "booya" > README.md
+  127  git commit -m "rewrote readme"
+  128  git add README.md
+  129  git push
+  130  cat README.md
+  131  git add README.md
+  132  git commit -m "rewrote readme"
+  133  git push
+  134  git checkout main
+  135  ls
+  136  git log
+  137  git checkout milkshake-flavours
+  138  ls
+  139  git rm history.txt
+  140  git push
+  141  ls
+  142  git checkout history
+  143  history > history.txt
+>>>>>>> history
