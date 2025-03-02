@@ -1,2 +1,3 @@
-git exercises 
-2nd changes
+git exercises. 
+2nd changes.
+3rd changes.
